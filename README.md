@@ -32,19 +32,11 @@ typing_extensions 4.6.2
 tzdata            2023.3
 ```
 
-The code reads an Excel file containing data on CO2 emissions, plots the data, fits a non-linear curve to it using the curve_fit function from the scipy.optimize library, and plots the fitted curve against the actual data. 
-
-
-## Here is a step by step explanation: 
-1. The necessary libraries are imported: pandas, numpy, scipy.optimize, and matplotlib.pyplot. 
-2. The Excel file containing the data is read into a pandas DataFrame object called "excel". 
-3. Two numpy arrays are created: "x_train" contains the "Year" column from the DataFrame, and "y_train" contains the "Total sum" column. These arrays will be used as the x and y values for plotting and curve fitting. 
-4. The data points are plotted using the "plt.plot" function and displayed using the "plt.show" function. 
-5. A non-linear function called "nonlinear_func" is defined, which takes an input array "x" and three parameters "a", "b", and "c", and returns the value of the function at each point in "x". 
-6. The "curve_fit" function is used to fit the "nonlinear_func" to the data, using "x_train" and "y_train" as inputs and an initial guess for the parameters of [1, 1, 1]. The optimized parameters are returned as a numpy array called "params". 
-7. The optimized parameters are separated into individual variables "a_opt", "b_opt", and "c_opt". 
-8. The optimized parameters are stored in a numpy array called "optimized_params". 
-9. The fitted curve is generated using "nonlinear_func" and the optimized parameters, and plotted against the actual data using the "plt.scatter" and "plt.plot" functions. The plot is displayed using the "plt.show" function.
+## Step by step set-up:
+1. Install python 3.11.3 on your computer
+2. Copy and paste this repository into a new folder.
+3. It is recommanded to set up a virtual environment in the folder before running the python command.
+4. run the command ```python.exe execute_analysis.py```
 
 ## References:
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
