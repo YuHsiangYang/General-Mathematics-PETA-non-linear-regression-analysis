@@ -2,6 +2,7 @@
 
 Creator: Yu-Hsiang
 
+**Please check out the actual python script for detailed explanation on the regression analysis model. Please Please**
 ## Set-up:
 Python version: 3.11.3
 Installed packages:
