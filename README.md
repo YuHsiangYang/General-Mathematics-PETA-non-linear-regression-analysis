@@ -41,5 +41,7 @@ tzdata            2023.3
 
 ## References:
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
+
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html
+
 https://scipy-cookbook.readthedocs.io/items/robust_regression.html
