@@ -37,7 +37,16 @@ tzdata            2023.3
 1. Install python 3.11.3 on your computer
 2. Copy and paste this repository into a new folder.
 3. It is recommanded to set up a virtual environment in the folder before running the python command.
-4. run the command ```python.exe execute_analysis.py```
+4. Run the command ```pip install -r requirements.txt``` to install all the required packages for this project.
+5. Run the command ```python.exe analyze_data.py.py``` to run the analysis.
+
+## Summary of the files:
+1. **analyze_data.py**: The main python script that runs the analysis.
+2. **CO2-by-source.xlsx**: The training data for the model
+3. **verification.py**: The python script that verifies the model with the training data.
+4. **regression_analysis.py**: The python script that contains the regression analysis model.
+5. **requirements.txt**: The file that contains all the required packages for this project. 
+
 
 ## References:
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
