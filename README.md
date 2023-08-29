@@ -2,6 +2,13 @@
 
 Creator: Yu-Hsiang
 
+
+## Explanation:
+I created these scripts to solve an exponential equation for the data inside `.\Data set\CO2-by-source.xlsx`.
+
+The script uses linear regression to compute for the coefficients a, b, and c. The script will optimize the values so it can result in a smaller error.
+
+
 **Please check out the actual python script for detailed explanation on the regression analysis model. Please Please**
 ## Set-up:
 Python version: 3.11.3
